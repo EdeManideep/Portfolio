@@ -14,7 +14,7 @@ const Education = () => {
     period: "2022 - 2025",
     cgpa: "9.57 / 10",
     location: "Vijayawada, India",
-    logo: "/personal-portfolio/education/kl_university.png",
+    logo: `${process.env.PUBLIC_URL}/education/kl_university.png`,
     description: "Pursuing a Bachelor's degree in Computer Science with a strong foundation in software engineering, data structures, algorithms, and modern development practices."
   },
   {
@@ -25,7 +25,7 @@ const Education = () => {
     period: "2019 - 2022",
     cgpa: "8.98 / 10",
     location: "Bapatla, India",
-    logo: "/personal-portfolio/education/bapatla_polytechnic.png",
+    logo: `${process.env.PUBLIC_URL}/education/bapatla_polytechnic.png`,
     description: "Completed a 3-year diploma program in Electrical and Electronics Engineering with a focus on practical engineering knowledge and hands-on lab experience."
   },
   {
@@ -36,7 +36,7 @@ const Education = () => {
     period: "2018 - 2019",
     cgpa: "9.3 / 10",
     location: "Repalle, India",
-    logo: "/personal-portfolio/education/bhashyam.png",
+    logo: `${process.env.PUBLIC_URL}/education/bhashyam.png`,
     description: "Completed secondary education with consistent academic performance."
   }
 ];

@@ -29,7 +29,7 @@ const About = () => {
   const codingPlatforms = [
     {
       name: 'LeetCode',
-      logo: '/personal-portfolio/coding_platforms/leetcode.png',
+      logo: `${process.env.PUBLIC_URL}/coding_platforms/leetcode.png`,
       rating: '2047',
       rank: 'Top 2%',
       url: 'https://leetcode.com/u/chintu095/',
@@ -37,7 +37,7 @@ const About = () => {
     },
     {
       name: 'CodeChef',
-      logo: '/personal-portfolio/coding_platforms/codechef.png',
+      logo: `${process.env.PUBLIC_URL}/coding_platforms/codechef.png`,
       rating: '1663',
       rank: 'Expert',
       url: 'https://www.codechef.com/users/manideep095',
@@ -45,7 +45,7 @@ const About = () => {
     },
     {
       name: 'GeeksforGeeks',
-      logo: '/personal-portfolio/coding_platforms/gfg.png',
+      logo: `${process.env.PUBLIC_URL}/coding_platforms/gfg.png`,
       rating: '1663',
       rank: 'Expert',
       url: 'https://www.geeksforgeeks.org/user/user_8stymnmdfn8/',

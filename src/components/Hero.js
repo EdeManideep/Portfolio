@@ -131,19 +131,19 @@ const Hero = () => {
             <div className="profile-card">
               <div className="profile-image">
                 <img 
-                  src="/personal-portfolio/about/profile.jpg" 
+                  src={`${process.env.PUBLIC_URL}/about/profile.jpg`}
                   alt="Ede Manideep"
                   className="profile-photo"
                 />
               </div>
               <div className="social-links">
-                <a href="https://github.com/EdeManideep" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('GitHub', 'https://github.com/Manoj4689')}>
+                <a href="https://github.com/EdeManideep" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('GitHub', 'https://github.com/EdeManideep')}>
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://www.linkedin.com/in/manideepdev/" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('LinkedIn', 'https://linkedin.com/in/manojkumareede')}>
+                <a href="https://www.linkedin.com/in/manideepdev/" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('LinkedIn', 'https://www.linkedin.com/in/manideepdev/')}>
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="mailto:manojkumar.ede@gmail.com" onClick={() => handleSocialClick('Email', 'mailto:manideepede9@gmail.com')}>
+                <a href="mailto:manideepede9@gmail.com" onClick={() => handleSocialClick('Email', 'mailto:manideepede9@gmail.com')}>
                   <i className="fas fa-envelope"></i>
                 </a>
               </div>

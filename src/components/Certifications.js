@@ -13,7 +13,7 @@ const Certifications = () => {
     date: "2024",
     description:
       "Validates foundational knowledge of version control, repository management, and collaboration using GitHub.",
-    logo: "/personal-portfolio/certifications/github.png",
+    logo: `${process.env.PUBLIC_URL}/certifications/github.png`,
     category: "Version Control",
     skills: ["Git", "GitHub", "Repositories", "Collaboration"],
     credentialId: "NA",
@@ -27,7 +27,7 @@ const Certifications = () => {
     date: "2023",
     description:
       "Validates foundational knowledge of cloud concepts, services, and Microsoft Azure fundamentals.",
-    logo: "/personal-portfolio/certifications/azure.png",
+    logo: `${process.env.PUBLIC_URL}/certifications/azure.png`,
     category: "Cloud",
     skills: ["Azure", "Cloud Concepts", "Infrastructure", "Security"],
     credentialId: "5CB49C04CD9F1465",
@@ -41,7 +41,7 @@ const Certifications = () => {
     date: "2024",
     description:
       "Certifies foundational and practical skills in full-stack development, covering front-end and back-end technologies.",
-    logo: "/personal-portfolio/certifications/wipro.webp",
+    logo: `${process.env.PUBLIC_URL}/certifications/wipro.webp`,
     category: "Full Stack",
     skills: ["Java", "Spring Boot", "React", "Full Stack Development"],
     credentialId: "NA",
@@ -55,7 +55,7 @@ const Certifications = () => {
     date: "2023",
     description:
       "Covers essential cloud computing services provided by Oracle including compute, storage, networking, and database solutions.",
-    logo: "/personal-portfolio/certifications/oracle.png",
+    logo: `${process.env.PUBLIC_URL}/certifications/oracle.png`,
     category: "Cloud",
     skills: ["OCI", "Cloud Infrastructure", "Compute", "Storage"],
     credentialId: "100324522OCI2024GAIOCP",
@@ -69,7 +69,7 @@ const Certifications = () => {
     date: "2023",
     description:
       "Validates RPA fundamentals and practical usage of Automation Anywhere tools for automating business processes.",
-    logo: "/personal-portfolio/certifications/automation_anywhere.webp",
+    logo: `${process.env.PUBLIC_URL}/certifications/automation_anywhere.webp`,
     category: "Automation",
     skills: ["RPA", "Automation Anywhere", "Process Automation", "Bots"],
     credentialId: "AAESS-A360 96362352",
@@ -83,7 +83,7 @@ const Certifications = () => {
     date: "2024",
     description:
       "Validates coding proficiency and problem-solving skills across various domains and programming languages.",
-    logo: "/personal-portfolio/certifications/hackerrank.webp",
+    logo: `${process.env.PUBLIC_URL}/certifications/hackerrank.webp`,
     category: "General",
     skills: ["Problem Solving", "Coding", "Algorithms", "Data Structures"],
     credentialId: "NA",
