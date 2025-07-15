@@ -1,132 +1,119 @@
-# Manoj Kumar Eede - Personal Portfolio
+# Ede Manideep - Personal Portfolio
 
-A modern, responsive personal portfolio website built with React, featuring dark/light theme toggle, smooth animations, and optimized for GitHub Pages deployment.
+A sleek and responsive personal portfolio built using React, highlighting my technical projects, certifications, and experience in full-stack development.
 
-## 🌟 About
+## ✨ About
 
-This is the personal portfolio of **Manoj Kumar Eede**, Member of Technical Staff at Adobe. The portfolio showcases my professional experience, technical skills, projects, and achievements in software engineering and data science.
+This is the personal portfolio of **Ede Manideep**, showcasing my skills, achievements, certifications, and hands-on experience in Java full-stack development, cloud technologies, and modern web applications.
 
 ## 🔗 Links
 
-- **GitHub**: [github.com/Manoj4689](https://github.com/Manoj4689)
-- **LinkedIn**: [linkedin.com/in/manojkumareede](https://linkedin.com/in/manojkumareede)
-- **Codeforces**: [codeforces.com/profile/codehacker4689](https://codeforces.com/profile/codehacker4689)
-- **Email**: manojkumar.ede@gmail.com
+* **GitHub**: [github.com/EdeManideep](https://github.com/EdeManideep)
+* **LinkedIn**: [https://www.linkedin.com/in/manideepdev/](https://www.linkedin.com/in/manideepdev/)
+* **Email**: [manideepede9@gmail.com](mailto:manideepede9@gmail.com)
 
-## 🌟 Features
+## ✨ Features
 
-- **Modern Design**: Clean, professional layout with gradient accents and glassmorphism effects
-- **Dark/Light Theme**: Toggle between dark and light modes with smooth transitions
-- **Responsive**: Fully responsive design that works on all devices
-- **Smooth Animations**: CSS animations and transitions for enhanced user experience
-- **Multiple Sections**:
-  - Hero section with animated typing text
-  - About section with skills and achievements
-  - Experience timeline with detailed work history
-  - Projects showcase with filtering and live demos
-  - Resume viewer with PDF embed
-  - Contact form with social links
-- **GitHub Pages Ready**: Configured for easy deployment to GitHub Pages
-- **Performance Optimized**: Fast loading with optimized images and code
-- **SEO Friendly**: Proper meta tags and semantic HTML
+* **Modern Design**: Clean, elegant layout with smooth transitions
+* **Dark/Light Theme**: Toggle themes with persistence
+* **Responsive**: Mobile-friendly across all devices
+* **Project Showcase**: Interactive project cards with live demo and GitHub links
+* **Certification Viewer**: Displays verified certifications with filtering
+* **Resume Viewer**: PDF resume viewable in-browser
+* **Contact Form**: Integrated with email functionality
+* **GitHub Pages Ready**: Easily deploy to GitHub Pages
+* **SEO Optimized**: Meta tags and clean markup
 
 ## 🚀 Quick Start
 
 ### Prerequisites
 
-- Node.js (v14 or higher)
-- npm or yarn
+* Node.js (v14 or higher)
+* npm or yarn
 
 ### Installation
 
-1. Clone this repository:
 ```bash
-git clone https://github.com/Manoj4689/personal-portfolio.git
+git clone https://github.com/EdeManideep/Portfolio.git
 cd personal-portfolio
-```
-
-2. Install dependencies:
-```bash
 npm install
-```
-
-3. Start the development server:
-```bash
 npm start
 ```
 
-4. Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Visit: [http://localhost:3000](http://localhost:3000)
 
 ## 📁 Project Structure
 
 ```
 src/
 ├── components/
-│   ├── Navigation.js/css    # Navigation bar with smooth scrolling
-│   ├── Hero.js/css          # Hero section with animated text
-│   ├── About.js/css         # About section with skills
-│   ├── Experience.js/css    # Experience timeline
-│   ├── Projects.js/css      # Projects showcase
-│   ├── Resume.js/css        # Resume viewer
-│   ├── Contact.js/css       # Contact form
-│   ├── Footer.js/css        # Footer component
-│   └── ThemeToggle.js/css   # Dark/light theme toggle
-├── App.js                   # Main app component
-├── App.css                  # Global styles and theme variables
-├── index.js                 # Entry point
-└── index.css                # Base styles and reset
+│   ├── Navigation.js/css
+│   ├── Hero.js/css
+│   ├── About.js/css
+│   ├── Experience.js/css
+│   ├── Projects.js/css
+│   ├── Certifications.js/css
+│   ├── Resume.js/css
+│   ├── Contact.js/css
+│   ├── Footer.js/css
+│   └── ThemeToggle.js/css
+├── App.js
+├── App.css
+├── index.js
+└── index.css
 ```
 
 ## 🎨 Customization
 
-The portfolio is already customized with Manoj Kumar Eede's information including:
+The portfolio is customized with **Ede Manideep's** details:
 
-- **Personal Information**: Name, contact details, social links
-- **Professional Experience**: Adobe, Asper.ai, Adobe Research Lab
-- **Skills**: Java, Python, JavaScript, React, Azure, Kubernetes, etc.
-- **Projects**: PDF-to-Markdown API, GenAI Financial Assistant, etc.
-- **Education**: IIT Roorkee - Integrated Masters in Mathematics and Computing
-- **Achievements**: Adobe SPOT Award, INSPIRE Scholarship, Codeforces Expert
+* **Personal Info**: Social media, email
+* **Experience**:
+
+  * Software Engineer 1 at Evergreen (Insurance domain)
+  * Software Engineering Intern at Evergreen
+* **Skills**: Java, Spring Boot, React, GitHub, Docker, Jenkins, REST APIs, Cloudinary, EmailJS
+* **Certifications**: GitHub Foundations, AZ-900, Oracle Cloud, RPA, HackerRank, and more
+* **Projects**: DriveAway Car Rental System, Restaurant Web App, Online Voting, Games, and Utilities
+* **Education**: B.Tech in Computer Science
 
 ## 🚀 Deployment
 
-### GitHub Pages Deployment
+### GitHub Pages
 
-1. The project is already configured for deployment to GitHub Pages
+Already configured to deploy using `gh-pages`. Just run:
 
-2. **Deploy to GitHub Pages**:
 ```bash
 npm run deploy
 ```
 
-This will build the project and deploy it to the `gh-pages` branch.
-
 ## 🛠️ Built With
 
-- **React** - JavaScript library for building user interfaces
-- **React Router** - Declarative routing for React
-- **CSS3** - Modern CSS with custom properties and animations
-- **Font Awesome** - Icon library
-- **Google Fonts** - Typography (Inter font family)
+* **React**
+* **React Router**
+* **CSS3 & TailwindCSS**
+* **Font Awesome**
+* **Netlify & Render**
 
 ## 📱 Browser Support
 
-- Chrome (recommended)
-- Firefox
-- Safari
-- Edge
+* Chrome
+* Firefox
+* Safari
+* Edge
 
-## 📄 License
+## 📅 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is licensed under the [MIT License](LICENSE).
 
 ## 📞 Contact
 
-**Manoj Kumar Eede**
-- Email: manojkumar.ede@gmail.com
-- LinkedIn: [linkedin.com/in/manojkumareede](https://linkedin.com/in/manojkumareede)
-- GitHub: [github.com/Manoj4689](https://github.com/Manoj4689)
+**Manideep Ede**
+
+* Email: [manideepede9@gmail.com](mailto:manideepede9@gmail.com)
+* LinkedIn: [https://www.linkedin.com/in/manideepdev/](https://www.linkedin.com/in/manideepdev/)
+* GitHub: [github.com/EdeManideep](https://github.com/EdeManideep)
 
 ---
 
-⭐ Star this repository if you found it helpful! 
+🌟 Star this repository if you find it useful!
