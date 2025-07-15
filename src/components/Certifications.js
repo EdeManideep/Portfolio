@@ -6,68 +6,90 @@ const Certifications = () => {
   const navigate = useNavigate();
 
   const certifications = [
-    {
-      id: 1,
-      title: "AI Agents Certification",
-      issuer: "Hugging Face",
-      date: "2025",
-      description: "Advanced training in building and deploying AI agents using state-of-the-art machine learning models and frameworks.",
-      logo: "/personal-portfolio/certifications/hugging_face.png",
-      category: "AI/ML",
-      skills: ["AI Agents", "Transformers", "LLM", "SmolAgents"],
-      credentialId: "Manojkumareede",
-      verifyLink: "https://huggingface.co/datasets/agents-course/certificates/resolve/main/certificates/Manojkumareede/2025-02-16.png"
-    },
-    {
-      id: 2,
-      title: "Model Context Protocol Certification",
-      issuer: "Hugging Face",
-      date: "2025",
-      description: "Specialized certification in model context protocols, focusing on efficient tools integration and context management.",
-      logo: "/personal-portfolio/certifications/hugging_face.png",
-      category: "AI/ML",
-      skills: ["Client Server Architecture", "Context Management", "Model Optimization", "Protocol Design"],
-      credentialId: "Manojkumareede",
-      verifyLink: "https://huggingface.co/datasets/mcp-course/certificates/resolve/main/certificates/Manojkumareede/2025-06-08.png"
-    },
-    {
-      id: 3,
-      title: "Time Series Analysis, Forecasting and Machine Learning",
-      issuer: "Udemy",
-      date: "2023",
-      description: "Comprehensive course covering time series forecasting, ARIMA models, and machine learning applications in temporal data analysis.",
-      logo: "/personal-portfolio/certifications/udemy.png",
-      category: "Data Science",
-      skills: ["Time Series", "ARIMA", "Forecasting", "Statistical Analysis"],
-      credentialId: "UC-41ecf699-62fa-4ad3-9c91-b3ed005555b2",
-      verifyLink: "https://ude.my/UC-41ecf699-62fa-4ad3-9c91-b3ed005555b2"
-    },
-    {
-      id: 4,
-      title: "Deep Learning Specialization",
-      issuer: "Udemy",
-      date: "2023",
-      description: "In-depth specialization covering neural networks, CNNs, RNNs, and advanced deep learning architectures for real-world applications.",
-      logo: "/personal-portfolio/certifications/udemy.png",
-      category: "AI/ML",
-      skills: ["Neural Networks", "CNN", "RNN", "Deep Learning", "TensorFlow"],
-      credentialId: "UC-DL-2023",
-      verifyLink: "#"
-    },
-    {
-      id: 5,
-      title: "Machine Learning Regression Master Class in Python",
-      issuer: "Udemy",
-      date: "2023",
-      description: "Advanced regression techniques and machine learning algorithms with hands-on implementation and real-world case studies.",
-      logo: "/personal-portfolio/certifications/udemy.png",
-      category: "Machine Learning",
-      skills: ["Regression Analysis", "Feature Engineering", "Model Selection", "Loss Functions"],
-      credentialId: "UC-4edf020f-ef1c-4d26-9c74-e2aa56ea0154",
-      verifyLink: "https://ude.my/UC-4edf020f-ef1c-4d26-9c74-e2aa56ea0154"
-    }
-  ];
-
+  {
+    id: 1,
+    title: "GitHub Foundations",
+    issuer: "GitHub",
+    date: "2024",
+    description:
+      "Validates foundational knowledge of version control, repository management, and collaboration using GitHub.",
+    logo: "/personal-portfolio/certifications/github.png",
+    category: "Version Control",
+    skills: ["Git", "GitHub", "Repositories", "Collaboration"],
+    credentialId: "NA",
+    verifyLink:
+      "https://www.credly.com/badges/6c4506ef-d341-46f5-879d-20354776cfc5/"
+  },
+  {
+    id: 2,
+    title: "AZ-900: Microsoft Azure Fundamentals",
+    issuer: "Microsoft",
+    date: "2023",
+    description:
+      "Validates foundational knowledge of cloud concepts, services, and Microsoft Azure fundamentals.",
+    logo: "/personal-portfolio/certifications/azure.png",
+    category: "Cloud",
+    skills: ["Azure", "Cloud Concepts", "Infrastructure", "Security"],
+    credentialId: "5CB49C04CD9F1465",
+    verifyLink:
+      "https://learn.microsoft.com/en-us/users/manideep-8571/credentials/5cb49c04cd9f1465"
+  },
+  {
+    id: 3,
+    title: "Wipro TalentNext Java Full Stack",
+    issuer: "Wipro",
+    date: "2024",
+    description:
+      "Certifies foundational and practical skills in full-stack development, covering front-end and back-end technologies.",
+    logo: "/personal-portfolio/certifications/wipro.webp",
+    category: "Full Stack",
+    skills: ["Java", "Spring Boot", "React", "Full Stack Development"],
+    credentialId: "NA",
+    verifyLink:
+      "https://raw.githubusercontent.com/EdeManideep/My_Portfolio/refs/heads/main/images/Wipro%20TalentNext%20%20Java%20Full%20Stack%20Certification.png"
+  },
+  {
+    id: 4,
+    title: "Oracle Cloud Infrastructure Foundations",
+    issuer: "Oracle",
+    date: "2023",
+    description:
+      "Covers essential cloud computing services provided by Oracle including compute, storage, networking, and database solutions.",
+    logo: "/personal-portfolio/certifications/oracle.png",
+    category: "Cloud",
+    skills: ["OCI", "Cloud Infrastructure", "Compute", "Storage"],
+    credentialId: "100324522OCI2024GAIOCP",
+    verifyLink:
+      "https://catalog-education.oracle.com/pls/certview/sharebadge?id=E73282C84CD6ACB370BEF3C3CA866D78E42228A6ADC792ACD63BF53B8B9DD45D"
+  },
+  {
+    id: 5,
+    title: "Automation Anywhere Certified Essentials RPA Professional",
+    issuer: "Automation Anywhere",
+    date: "2023",
+    description:
+      "Validates RPA fundamentals and practical usage of Automation Anywhere tools for automating business processes.",
+    logo: "/personal-portfolio/certifications/automation_anywhere.webp",
+    category: "Automation",
+    skills: ["RPA", "Automation Anywhere", "Process Automation", "Bots"],
+    credentialId: "AAESS-A360 96362352",
+    verifyLink:
+      "https://certificates.automationanywhere.com/7f184ff2-4bbb-4cff-b3ab-b331c53a2d24#gs.cl91gn"
+  },
+  {
+    id: 6,
+    title: "HackerRank Certifications",
+    issuer: "HackerRank",
+    date: "2024",
+    description:
+      "Validates coding proficiency and problem-solving skills across various domains and programming languages.",
+    logo: "/personal-portfolio/certifications/hackerrank.webp",
+    category: "General",
+    skills: ["Problem Solving", "Coding", "Algorithms", "Data Structures"],
+    credentialId: "NA",
+    verifyLink: "https://www.hackerrank.com/certificates/b9a957d169f3"
+  }
+];
 
   return (
     <section id="certifications" className="certifications section">
@@ -85,7 +107,7 @@ const Certifications = () => {
               <i className="fas fa-award"></i>
               Professional Certifications
             </h3>
-            <p>Validated expertise in AI, Machine Learning, and Data Science</p>
+            <p>Validated expertise in Full Stack Development, Cloud Computing, DevOps, and Automation Technologies</p>
           </div>
 
           <div className="certifications-list">
@@ -123,7 +145,7 @@ const Certifications = () => {
                       onClick={() => window.open(cert.verifyLink, '_blank')}
                       title="Verify Certificate"
                     >
-                      <i className="fas fa-external-link-alt"></i>
+                      <i className="fa-solid fa-up-right-from-square" style={{ color: "#ffffff" }}></i>
                       Verify
                     </button>
                   </div>
@@ -142,10 +164,12 @@ const Certifications = () => {
                       </div>
                     </div>
                     
+                    {cert.credentialId !== "NA" &&(
                     <div className="credential-section">
                       <h6>Credential ID</h6>
                       <div className="credential-id">{cert.credentialId}</div>
                     </div>
+                    )}
                   </div>
                 </div>
               </div>

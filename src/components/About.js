@@ -7,24 +7,24 @@ const About = () => {
     { name: 'Python', icon: 'fab fa-python', color: '#3776ab' },
     { name: 'JavaScript', icon: 'fab fa-js-square', color: '#f7df1e' },
     { name: 'React', icon: 'fab fa-react', color: '#61dafb' },
-    { name: 'C++', icon: 'fas fa-code', color: '#00599c' },
-    { name: 'Azure', icon: 'fab fa-microsoft', color: '#0078d4' },
-    { name: 'Kubernetes', icon: 'fas fa-dharmachakra', color: '#326ce5' },
+    // { name: 'C++', icon: 'fas fa-code', color: '#00599c' },
+    // { name: 'Azure', icon: 'fab fa-microsoft', color: '#0078d4' },
+    // { name: 'Kubernetes', icon: 'fas fa-dharmachakra', color: '#326ce5' },
     { name: 'SQL', icon: 'fas fa-database', color: '#336791' },
     { name: 'Docker', icon: 'fab fa-docker', color: '#2496ed' },
     { name: 'Git', icon: 'fab fa-git-alt', color: '#f05032' },
     { name: 'HTML5', icon: 'fab fa-html5', color: '#e34f26' },
     { name: 'CSS3', icon: 'fab fa-css3-alt', color: '#1572b6' },
-    { name: 'Node.js', icon: 'fab fa-node-js', color: '#339933' },
-    { name: 'Linux', icon: 'fab fa-linux', color: '#fcc624' },
-    { name: 'AWS', icon: 'fab fa-aws', color: '#ff9900' }
+    { name: 'Node.js', icon: 'fab fa-node-js', color: '#339933' }
+    // { name: 'Linux', icon: 'fab fa-linux', color: '#fcc624' },
+    // { name: 'AWS', icon: 'fab fa-aws', color: '#ff9900' }
   ];
 
-  const achievements = [
-    { number: '1.5+', label: 'Years of Experience' },
-    { number: '300K+', label: 'Monthly Transactions' },
-    { number: '$3M', label: 'Contract Value' }
-  ];
+  // const achievements = [
+  //   { number: '1.5+', label: 'Years of Experience' },
+  //   { number: '300K+', label: 'Monthly Transactions' },
+  //   { number: '$3M', label: 'Contract Value' }
+  // ];
 
   const codingPlatforms = [
     {
@@ -32,15 +32,23 @@ const About = () => {
       logo: '/personal-portfolio/coding_platforms/leetcode.png',
       rating: '2047',
       rank: 'Top 2%',
-      url: 'https://leetcode.com/19312009',
+      url: 'https://leetcode.com/u/chintu095/',
       color: '#FFA116'
     },
     {
-      name: 'Codeforces',
-      logo: '/personal-portfolio/coding_platforms/codeforces.png',
+      name: 'CodeChef',
+      logo: '/personal-portfolio/coding_platforms/codechef.png',
       rating: '1663',
       rank: 'Expert',
-      url: 'https://codeforces.com/profile/codehacker4689',
+      url: 'https://www.codechef.com/users/manideep095',
+      color: '#1F8ACB'
+    },
+    {
+      name: 'GeeksforGeeks',
+      logo: '/personal-portfolio/coding_platforms/gfg.png',
+      rating: '1663',
+      rank: 'Expert',
+      url: 'https://www.geeksforgeeks.org/user/user_8stymnmdfn8/',
       color: '#1F8ACB'
     }
   ];
@@ -54,22 +62,22 @@ const About = () => {
           <div className="about-text fade-in">
             <div className="text-content">
               <h3 className="about-subtitle">
-                I'm a passionate <span className="gradient-text">Software Engineer</span> with expertise in Full Stack development, AI and Data Science
+                I'm a passionate <span className="gradient-text">Software Engineer</span> with expertise in Java Full Stack development.
               </h3>
               <p>
-                Currently working as a Member of Technical Staff at Adobe, I specialize in building scalable 
-                systems and AI-powered solutions. With a strong background in Mathematics and Computing from 
-                IIT Roorkee, I bring both theoretical knowledge and practical experience to every project.
+                Currently working as a Software Engineer at Evergreen, an Insight Global Division,
+                I specialize in delivering robust end-to-end solutions using technologies like Spring Boot,
+                React, RESTful APIs, and SQL databases. I bring a strong foundation in computer science and a focus 
+                on creating efficient, maintainable, and high-performance applications.
               </p>
               <p>
-                I have led end-to-end development of innovative solutions like REST APIs, GenAI 
-                Assistants, and Dynamic Demand Forecasting Engines. My work has enabled 300K+ monthly 
-                transactions and contributed to multi-million dollar contracts.
+                As a member of the software development team, I've contributed to building enterprise-grade REST APIs that have enhanced
+                productivity, improved performance, and supported thousands of users in real-time environments.
               </p>
               <p>
-                I'm passionate about competitive programming and constantly 
-                learning new technologies. I enjoy solving complex problems and building systems that make a 
-                real impact on businesses and users.
+                I'm deeply passionate about problem-solving, clean code, and continuous learning.
+                I actively explore emerging technologies like cloud-native development, containerization and microservices to stay ahead in this ever-evolving tech landscape.
+                I enjoy solving complex problems and building systems that make a real impact on businesses and users.
               </p>
             </div>
           </div>
@@ -97,23 +105,11 @@ const About = () => {
                 <i className="fas fa-code"></i>
                 <span>Full-stack development</span>
               </div>
-              <div className="highlight">
-                <i className="fas fa-brain"></i>
-                <span>Machine Learning & AI</span>
-              </div>
-              <div className="highlight">
-                <i className="fas fa-chart-line"></i>
-                <span>Data Science</span>
-              </div>
-              <div className="highlight">
-                <i className="fas fa-cloud"></i>
-                <span>Cloud & DevOps</span>
-              </div>
             </div>
           </div>
         </div>
         
-        <div className="achievements">
+        {/* <div className="achievements">
           <div className="achievements-grid">
             {achievements.map((achievement, index) => (
               <div key={achievement.label} className="achievement-item fade-in" style={{animationDelay: `${index * 0.2}s`}}>
@@ -122,7 +118,7 @@ const About = () => {
               </div>
             ))}
           </div>
-        </div>
+        </div> */}
 
         <div className="coding-platforms">
           <h3 className="platforms-title">
@@ -154,7 +150,7 @@ const About = () => {
                 </div>
                 <div className="platform-info">
                   <h4 className="platform-name">{platform.name}</h4>
-                  <div className="platform-stats">
+                  {/* <div className="platform-stats">
                     <div className="stat">
                       <span className="stat-label">Max Rating</span>
                       <span className="stat-value" style={{color: platform.color}}>
@@ -165,7 +161,7 @@ const About = () => {
                       <span className="stat-label">Rank</span>
                       <span className="stat-value">{platform.rank}</span>
                     </div>
-                  </div>
+                  </div> */}
                 </div>
                 <div className="platform-link">
                   <i className="fas fa-external-link-alt"></i>

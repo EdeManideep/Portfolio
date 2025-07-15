@@ -10,9 +10,7 @@ const Hero = () => {
   const textRef = useRef(null);
   
   const roles = [
-    'Member of Technical Staff',
-    'Data Scientist',
-    'Research Intern'
+    'Software Engineer'
   ];
 
   useEffect(() => {
@@ -97,7 +95,7 @@ const Hero = () => {
         <div className="hero-content">
           <div className="hero-text fade-in">
             <h1 className="hero-title">
-              Hi, I'm <span className="gradient-text">Manoj Kumar Eede</span>
+              Hi, I'm <span className="gradient-text">Ede Manideep</span>
             </h1>
             <h2 className="hero-subtitle">
               I'm a{' '}
@@ -107,8 +105,8 @@ const Hero = () => {
               </span>
             </h2>
             <p className="hero-description">
-              Passionate about building scalable systems and AI-powered solutions. 
-              I specialize in full-stack development, machine learning, and transforming complex problems into elegant solutions.
+              Passionate about crafting robust and scalable web applications using modern Java technologies.
+              I specialize in full-stack development with Spring Boot, React, and RESTful APIs. 
             </p>
             
             <div className="hero-buttons">
@@ -134,18 +132,18 @@ const Hero = () => {
               <div className="profile-image">
                 <img 
                   src="/personal-portfolio/about/profile.jpg" 
-                  alt="Manoj Kumar Eede"
+                  alt="Ede Manideep"
                   className="profile-photo"
                 />
               </div>
               <div className="social-links">
-                <a href="https://github.com/Manoj4689" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('GitHub', 'https://github.com/Manoj4689')}>
+                <a href="https://github.com/EdeManideep" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('GitHub', 'https://github.com/Manoj4689')}>
                   <i className="fab fa-github"></i>
                 </a>
-                <a href="https://linkedin.com/in/manojkumareede" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('LinkedIn', 'https://linkedin.com/in/manojkumareede')}>
+                <a href="https://www.linkedin.com/in/manideepdev/" target="_blank" rel="noopener noreferrer" onClick={() => handleSocialClick('LinkedIn', 'https://linkedin.com/in/manojkumareede')}>
                   <i className="fab fa-linkedin"></i>
                 </a>
-                <a href="mailto:manojkumar.ede@gmail.com" onClick={() => handleSocialClick('Email', 'mailto:manojkumar.ede@gmail.com')}>
+                <a href="mailto:manojkumar.ede@gmail.com" onClick={() => handleSocialClick('Email', 'mailto:manideepede9@gmail.com')}>
                   <i className="fas fa-envelope"></i>
                 </a>
               </div>

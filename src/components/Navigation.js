@@ -79,7 +79,7 @@ const Navigation = ({ darkMode }) => {
     <nav className={`navigation ${isScrolled ? 'scrolled' : ''}`}>
       <div className="nav-container">
         <Link to="/" className="nav-logo">
-          <span className="logo-text gradient-text signature">Manoj Kumar Eede</span>
+          <span className="logo-text gradient-text signature">Ede Manideep</span>
         </Link>
 
         <ul className={`nav-menu ${isMobileMenuOpen ? 'active' : ''}`}>

@@ -6,51 +6,41 @@ const Experience = () => {
   const navigate = useNavigate();
 
   const experiences = [
+  {
+  id: 1,
+  title: "Software Engineer 1",
+  company: "Evergreen",
+  period: "Jul 2025 - Present",
+  location: "Hyderabad, India",
+  description: "Working as a Software Engineer at Evergreen on an insurance domain project, building scalable full-stack applications.",
+  achievements: [
+    "Built scalable full-stack solutions using Spring Boot, React.",
+    "Focused on clean, efficient, and high-performance application design.",
+    "Contributed to enterprise-grade REST APIs that improved performance and supported thousands of real-time users."
+  ],
+  technologies: ["Java", "Spring Boot", "Azure"]
+  },
     {
-      id: 1,
-      title: "Member of Technical Staff",
-      company: "Adobe",
-      period: "Sept 2024 - Present",
-      location: "Noida, India",
-      description: "Leading end-to-end development of innovative AI-powered solutions and APIs, driving external rollout and monetization strategies.",
-      achievements: [
-        "Recieved SPOT Award for exceptional performance and leadership",
-        "Driving external rollout with estimated $1M ARR in initial phase",
-        "Delivered API enhancements enabling 300K+ monthly transactions",
-        "Built GenAI Financial Assistant for complex document analysis"
-      ],
-      technologies: ["Java", "Python", "ReactJS", "ArgoCD", "Kubernetes", "Docker", "Spring Boot"]
-    },
-    {
-      id: 2,
-      title: "Data Scientist",
-      company: "Asper.ai",
-      period: "June 2024 - Sept 2024",
-      location: "Bangalore, India",
-      description: "Led client engagement for major contracts with forecasting algorithm designs and enhanced internal dynamic demand forecasting engine.",
-      achievements: [
-        "Led end-to-end client engagement for $3M contract with a leading US-based CPG company",
-        "Increased inline demand planning accuracy by over 10% for 1,000+ SKUs",
-        "Enhanced Dynamic Demand Forecasting Engine",
-        "Designed scalable ML system frameworks for improved deployment"
-      ],
-      technologies: ["Python", "TensorFlow", "Scikit-learn", "Azure", "Kubernetes", "MLOps"]
-    },
-    {
-      id: 3,
-      title: "Research Intern",
-      company: "Adobe Research Lab",
-      period: "May 2023 - July 2023",
-      location: "Bangalore, India",
-      description: "Applied Large Language Models for controlled text generation and developed automated commenting pipelines using advanced NLP techniques.",
-      achievements: [
-        "Developed Automated Commenting Pipeline with advanced NLP",
-        "Achieved >15% higher accuracy compared to baselines on curated NLPeer data",
-        "Integrated solution into Adobe's GenAI framework"
-      ],
-      technologies: ["Python", "Flask", "ReactJS", "NLP", "LLMs", "Embeddings", "PyTorch"]
-    }
-  ];
+  id: 2,
+  title: "Software Engineer Intern",
+  company: "Evergreen",
+  period: "Feb 2025 - Jun 2025",
+  location: "Hyderabad, India",
+  description: "Led a team to build a Java Full Stack car rental application with real-time features, admin analytics, and responsive UI.",
+  achievements: [
+    "Developed a Java Full Stack application for a smart car rental platform.",
+    "24/7 AI Chatbot Support – Offers instant assistance for bookings and car recommendations.",
+    "Email Confirmations & Secure Payments – Safe bookings via trusted gateways.",
+    "Dynamic Admin Dashboard with Visual Charts – Monitor users, bookings, revenue.",
+    "User-Friendly and Fully Responsive Interface – Optimized for all devices."
+  ],
+  technologies: [
+  "HTML", "CSS", "JavaScript", "TailwindCSS", "React", "EmailJS", "Groq AI",
+  "Spring Boot", "Spring Boot REST API", "Cloudinary", "CockroachDB",
+  "JUnit", "Postman", "Selenium", "GitHub", "Docker", "Jenkins", "SonarQube", "Netlify", "Render"
+  ]
+ }
+];
 
   return (
     <section id="experience" className="experience section">

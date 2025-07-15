@@ -17,9 +17,9 @@ const Footer = () => {
   ];
 
   const socialLinks = [
-    { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/Manoj4689' },
-    { name: 'LinkedIn', icon: 'fab fa-linkedin', url: 'https://linkedin.com/in/manojkumareede' },
-    { name: 'Email', icon: 'fas fa-envelope', url: 'mailto:manojkumar.ede@gmail.com' }
+    { name: 'GitHub', icon: 'fab fa-github', url: 'https://github.com/EdeManideep' },
+    { name: 'LinkedIn', icon: 'fab fa-linkedin', url: 'https://www.linkedin.com/in/manideepdev/' },
+    { name: 'Email', icon: 'fas fa-envelope', url: 'mailto:manideepede9@gmail.com' }
   ];
 
   const scrollToSection = (link) => {
@@ -44,10 +44,10 @@ const Footer = () => {
         <div className="container">
           <div className="footer-main">
             <div className="footer-brand">
-              <h3 className="footer-logo gradient-text">Manoj Kumar Eede</h3>
+              <h3 className="footer-logo gradient-text">Ede Manideep</h3>
               <p className="footer-description">
-                Member of Technical Staff at Adobe, passionate about building 
-                scalable AI-powered solutions and full-stack applications.
+                Software Engineer at Evergreen, an Insight Global Division,
+                I specialize in delivering robust end-to-end solutions using technologies like Spring Boot, React, RESTful APIs, and SQL databases.
               </p>
               <div className="footer-social">
                 {socialLinks.map((social) => (
@@ -85,22 +85,22 @@ const Footer = () => {
               <h4>Get In Touch</h4>
               <div className="contact-item">
                 <i className="fas fa-envelope"></i>
-                <a href="mailto:manojkumar.ede@gmail.com">manojkumar.ede@gmail.com</a>
+                <a href="mailto:manideepede9@gmail.com">manideepede9@gmail.com</a>
               </div>
               <div className="contact-item">
                 <i className="fas fa-map-marker-alt"></i>
-                <span>Noida, India</span>
+                <span>Hyderbad, India</span>
               </div>
               <div className="contact-item">
                 <i className="fas fa-phone"></i>
-                <a href="tel:+918688640213">+91 8688640213</a>
+                <a href="tel:+919346024834">+91 9346024834</a>
               </div>
             </div>
           </div>
 
           <div className="footer-bottom">
             <div className="footer-copyright">
-              <p>&copy; {currentYear} Manoj Kumar Eede. All rights reserved.</p>
+              <p>&copy; {currentYear} Ede Manideep. All rights reserved.</p>
             </div>
             <div className="footer-credits">
               <p>Built with React & ❤️</p>

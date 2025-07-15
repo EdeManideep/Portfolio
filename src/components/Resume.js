@@ -31,12 +31,12 @@ const Resume = () => {
   }, []);
 
   const handleDownload = () => {
-    trackDownload('Resume_ManojKumarEede.pdf', 'PDF');
+    trackDownload('Resume_EdeManideep.pdf', 'PDF');
     trackButtonClick('Download Resume', 'Resume');
     
     const link = document.createElement('a');
     link.href = resumeUrl;
-    link.download = 'Resume_ManojKumarEede.pdf';
+    link.download = 'Resume_EdeManideep.pdf';
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
@@ -154,4 +154,4 @@ const Resume = () => {
   );
 };
 
-export default Resume; 
+export default Resume;

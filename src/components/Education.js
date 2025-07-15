@@ -6,68 +6,40 @@ const Education = () => {
   const navigate = useNavigate();
 
   const educationTimeline = [
-    {
-      id: 1,
-      degree: "Mathematics and Computing",
-      specialization: "Integrated Masters",
-      institution: "IIT Roorkee",
-      period: "2019 - 2024",
-      cgpa: "8.78/10",
-      location: "Roorkee, India",
-      logo: "/personal-portfolio/education/iit_roorkee.png",
-      description: "Comprehensive 5-year integrated program combining theoretical mathematics with practical computing applications, focusing on applied mathematics.",
-      highlights: [
-        "Graduated with Distinction",
-        "INSPIRE Scholarship by DST, MHRD - Recieved 60,000/year for 5 years (Top <1% All Over India)"
-      ],
-      coursework: [
-        "Data Structures and Algorithms",
-        "Object Oriented Programming", 
-        "Database Management System",
-        "Discrete Mathematics",
-        "Digital Image Processing",
-        "Graph Theory"
-      ]
-    },
-    {
-      id: 2,
-      degree: "Intermediate (Class XII)",
-      specialization: "Higher Secondary Education",
-      institution: "BIIT Junior College",
-      period: "2017 - 2019",
-      cgpa: "10/10",
-      location: "Guntur, India",
-      logo: "/personal-portfolio/education/bhashyam.png", 
-      description: "Completed higher secondary education with perfect CGPA, focusing on Mathematics, Physics, and Chemistry.",
-      highlights: [
-        "Perfect CGPA of 10/10"
-      ],
-      coursework: [
-        "Mathematics",
-        "Physics",
-        "Chemistry"
-      ]
-    },
-    {
-      id: 3,
-      degree: "Matriculation (Class X)",
-      specialization: "Secondary Education",
-      institution: "Bhashyam High School",
-      period: "2016 - 2017",
-      cgpa: "10/10",
-      location: "Guntur, India",
-      logo: "/personal-portfolio/education/bhashyam.png",
-      description: "Completed secondary education with perfect CGPA, demonstrating consistent academic excellence from early education.",
-      highlights: [
-        "Perfect CGPA of 10/10"
-      ],
-      coursework: [
-        "Mathematics",
-        "Physical Sciences",
-        "English"
-      ]
-    }
-  ];
+  {
+    id: 1,
+    degree: "Bachelor's Degree",
+    specialization: "Computer Science",
+    institution: "KL University",
+    period: "2022 - 2025",
+    cgpa: "9.57 / 10",
+    location: "Vijayawada, India",
+    logo: "/personal-portfolio/education/kl_university.png",
+    description: "Pursuing a Bachelor's degree in Computer Science with a strong foundation in software engineering, data structures, algorithms, and modern development practices."
+  },
+  {
+    id: 2,
+    degree: "Diploma of Education",
+    specialization: "Electrical and Electronics Engineering",
+    institution: "Bapatla Polytechnic College",
+    period: "2019 - 2022",
+    cgpa: "8.98 / 10",
+    location: "Bapatla, India",
+    logo: "/personal-portfolio/education/bapatla_polytechnic.png",
+    description: "Completed a 3-year diploma program in Electrical and Electronics Engineering with a focus on practical engineering knowledge and hands-on lab experience."
+  },
+  {
+    id: 3,
+    degree: "Matriculation (Class X)",
+    specialization: "Secondary Education",
+    institution: "Bhashyam High School, Repalle",
+    period: "2018 - 2019",
+    cgpa: "9.3 / 10",
+    location: "Repalle, India",
+    logo: "/personal-portfolio/education/bhashyam.png",
+    description: "Completed secondary education with consistent academic performance."
+  }
+];
 
   return (
     <section id="education" className="education section">
@@ -136,31 +108,6 @@ const Education = () => {
                   <div className="education-body">
                     <p className="specialization">{edu.specialization}</p>
                     <p className="education-description">{edu.description}</p>
-                    
-                    <div className="education-details">
-                      <div className="highlights-section">
-                        <h6>Key Highlights</h6>
-                        <ul className="highlights-list">
-                          {edu.highlights.map((highlight, idx) => (
-                            <li key={idx}>
-                              <i className="fas fa-star"></i>
-                              {highlight}
-                            </li>
-                          ))}
-                        </ul>
-                      </div>
-                      
-                      <div className="coursework-section">
-                        <h6>Key Subjects</h6>
-                        <div className="coursework-tags">
-                          {edu.coursework.map((course, idx) => (
-                            <span key={idx} className="course-tag">
-                              {course}
-                            </span>
-                          ))}
-                        </div>
-                      </div>
-                    </div>
                   </div>
                 </div>
               </div>

@@ -78,7 +78,7 @@ const Contact = () => {
         from_email: formData.email,
         subject: formData.subject,
         message: formData.message,
-        to_name: 'Manoj Kumar Eede',
+        to_name: 'Ede Manideep',
         reply_to: formData.email
       };
 
@@ -164,20 +164,20 @@ const Contact = () => {
     {
       icon: 'fas fa-envelope',
       label: 'Email',
-      value: 'manojkumar.ede@gmail.com',
-      link: 'mailto:manojkumar.ede@gmail.com'
+      value: 'manideepede9@gmail.com',
+      link: 'mailto:manideepede9@gmail.com'
     },
     {
       icon: 'fas fa-phone',
       label: 'Phone',
-      value: '+91 8688640213',
-      link: 'tel:+918688640213'
+      value: '+91 9346024834',
+      link: 'tel:+919346024834'
     },
     {
       icon: 'fas fa-map-marker-alt',
       label: 'Location',
-      value: 'Bangalore, India',
-      link: 'https://maps.google.com/?q=Bangalore,India'
+      value: 'Hyderabad, India',
+      link: 'https://maps.google.com/?q=Hyderbad,India'
     },
     {
       icon: 'fas fa-calendar',
@@ -191,19 +191,13 @@ const Contact = () => {
     {
       name: 'GitHub',
       icon: 'fab fa-github',
-      url: 'https://github.com/Manoj4689',
+      url: 'https://github.com/EdeManideep',
       color: '#333'
     },
     {
       name: 'LinkedIn',
       icon: 'fab fa-linkedin',
-      url: 'https://linkedin.com/in/manojkumareede',
-      color: '#0077b5'
-    },
-    {
-      name: 'Medium',
-      icon: 'fab fa-medium',
-      url: 'https://medium.com/@manojkumar.ede',
+      url: 'https://www.linkedin.com/in/manideepdev/',
       color: '#0077b5'
     }
   ];
@@ -222,7 +216,7 @@ const Contact = () => {
               <h3>Let's Connect</h3>
               <p>
                 I'm always interested in discussing new opportunities, career prospects, 
-                and exciting roles in technology, AI, and software development. Whether you're 
+                and exciting roles in technology and software development. Whether you're 
                 a recruiter, hiring manager, or just want to network, I'd love to hear from you!
               </p>
             </div>
